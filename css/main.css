@@ -9,7 +9,9 @@ body {
 html {
 	scroll-behavior: smooth;
 }
-
+a {
+	text-decoration: none; /* Removes underlines */
+}
 /**
  * Disable smooth scrolling when users have prefers-reduced-motion enabled
  */

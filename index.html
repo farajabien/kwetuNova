@@ -37,14 +37,45 @@
 		<link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet" />
 		<link href="./css/aos.css?ver=1.2.0" rel="stylesheet" />
 		<link href="./css/main.css?ver=1.2.0" rel="stylesheet" />
-		<noscript>
-			<style type="text/css">
-				[data-aos] {
-					opacity: 1 !important;
-					transform: translate(0) scale(1) !important;
-				}
-			</style>
-		</noscript>
+		<!-- Calendly badge widget begin -->
+		<link
+			href="https://assets.calendly.com/assets/external/widget.css"
+			rel="stylesheet" />
+		<script
+			src="https://assets.calendly.com/assets/external/widget.js"
+			type="text/javascript"
+			async></script>
+		<script type="text/javascript">
+			window.onload = function () {
+				Calendly.initBadgeWidget({
+					url: 'https://calendly.com/contact-i7m/introductory-call',
+					text: 'Schedule time with me',
+					color: '#0069ff',
+					textColor: '#ffffff',
+					branding: undefined,
+				})
+			}
+		</script>
+		<!-- Calendly badge widget begin -->
+		<link
+			href="https://assets.calendly.com/assets/external/widget.css"
+			rel="stylesheet" />
+		<script
+			src="https://assets.calendly.com/assets/external/widget.js"
+			type="text/javascript"
+			async></script>
+		<script type="text/javascript">
+			window.onload = function () {
+				Calendly.initBadgeWidget({
+					url: 'https://calendly.com/contact-i7m/introductory-call',
+					text: 'Book A Free Consultation Call',
+					color: '#F4E661',
+					textColor: '#2c2a2a',
+					branding: undefined,
+				})
+			}
+		</script>
+		<!-- Calendly badge widget end -->
 	</head>
 	<body id="top">
 		<header class="">
@@ -179,60 +210,68 @@
 								class="col-md-6 col-lg-3 text-center"
 								data-aos="fade-up"
 								data-aos-delay="100">
-								<div class="border rounded p-3 bg-light mb-3">
-									<div class="text-center text-secondary display-3">
-										<i class="bi bi-palette-fill"></i>
+								<div class="customBorder mb-3">
+									<div class="border rounded p-3 bg-light">
+										<div class="text-center text-secondary display-3">
+											<i class="bi bi-palette-fill"></i>
+										</div>
+										<h3 class="h4 mt-2">Striking Design</h3>
+										<p class="text-small">
+											Elevate your brand with captivating web designs that leave
+											a lasting impression.
+										</p>
 									</div>
-									<h3 class="h4 mt-2">Striking Design</h3>
-									<p class="text-small">
-										Elevate your brand with captivating web designs that leave a
-										lasting impression.
-									</p>
 								</div>
 							</div>
 							<div
 								class="col-md-6 col-lg-3 text-center"
 								data-aos="fade-up"
 								data-aos-delay="200">
-								<div class="border rounded p-3 bg-light mb-3">
-									<div class="text-center text-secondary display-3">
-										<i class="bi bi-chat-left-text-fill"></i>
+								<div class="customBorder mb-3">
+									<div class="border rounded p-3 bg-light">
+										<div class="text-center text-secondary display-3">
+											<i class="bi bi-chat-left-text-fill"></i>
+										</div>
+										<h3 class="h4 mt-2">Expert SEO</h3>
+										<p class="text-small">
+											Dominate search engines and enhance online visibility with
+											our top-tier SEO strategies.
+										</p>
 									</div>
-									<h3 class="h4 mt-2">Expert SEO</h3>
-									<p class="text-small">
-										Dominate search engines and enhance online visibility with
-										our top-tier SEO strategies.
-									</p>
 								</div>
 							</div>
 							<div
 								class="col-md-6 col-lg-3 text-center"
 								data-aos="fade-up"
 								data-aos-delay="300">
-								<div class="border rounded p-3 bg-light mb-3">
-									<div class="text-center text-secondary display-3">
-										<i class="bi bi-calendar-check-fill"></i>
+								<div class="customBorder mb-3">
+									<div class="border rounded p-3 bg-light">
+										<div class="text-center text-secondary display-3">
+											<i class="bi bi-calendar-check-fill"></i>
+										</div>
+										<h3 class="h4 mt-2">Business Growth</h3>
+										<p class="text-small">
+											Drive business growth through effective web solutions that
+											attract, engage, and convert customers.
+										</p>
 									</div>
-									<h3 class="h4 mt-2">Business Growth</h3>
-									<p class="text-small">
-										Drive business growth through effective web solutions that
-										attract, engage, and convert customers.
-									</p>
 								</div>
 							</div>
 							<div
 								class="col-md-6 col-lg-3 text-center"
 								data-aos="fade-up"
 								data-aos-delay="400">
-								<div class="border rounded p-3 bg-light mb-3">
-									<div class="text-center text-secondary display-3">
-										<i class="bi bi-people-fill"></i>
+								<div class="customBorder mb-3">
+									<div class="border rounded p-3 bg-light">
+										<div class="text-center text-secondary display-3">
+											<i class="bi bi-people-fill"></i>
+										</div>
+										<h3 class="h4 mt-2">Dedicated Support</h3>
+										<p class="text-small">
+											Benefit from our 24/7 support and after-sales services for
+											a seamless online journey.
+										</p>
 									</div>
-									<h3 class="h4 mt-2">Dedicated Support</h3>
-									<p class="text-small">
-										Benefit from our 24/7 support and after-sales services for a
-										seamless online journey.
-									</p>
 								</div>
 							</div>
 						</div>
@@ -923,10 +962,7 @@
 													>
 												</li>
 												<li class="nav-item">
-													<a
-														class="nav-link"
-														href="https://www.instagram.com/templateflip"
-														title="Instagram"
+													<a class="nav-link" href="#" title="Instagram"
 														><i class="fab fa-instagram"></i
 														><span class="menu-title sr-only"
 															>Instagram</span
@@ -936,13 +972,14 @@
 												<li class="nav-item">
 													<a
 														class="nav-link"
-														href="https://www.linkedin.com/"
+														href="https://www.linkedin.com/company/kwetunova/"
+														target="_blank"
 														title="LinkedIn"
 														><i class="fab fa-linkedin"></i
 														><span class="menu-title sr-only">LinkedIn</span></a
 													>
 												</li>
-												<li class="nav-item">
+												<!-- <li class="nav-item">
 													<a
 														class="nav-link"
 														href="https://www.behance.net/templateflip"
@@ -950,7 +987,7 @@
 														><i class="fab fa-behance"></i
 														><span class="menu-title sr-only">Behance</span></a
 													>
-												</li>
+												</li> -->
 											</ul>
 										</nav>
 									</div>
@@ -992,7 +1029,7 @@
 								<div class="text-uppercase mb-2">About</div>
 								<div class="nav flex-column">
 									<a class="nav-link px-0" href="#!">About</a
-									><a class="nav-link px-0" href="#!">Contact</a
+									><a class="nav-link px-0" href="#contact">Contact</a
 									><a class="nav-link px-0" href="#!">Terms</a
 									><a class="nav-link px-0" href="#!">Privacy</a>
 								</div>
@@ -1019,6 +1056,7 @@
 				><span class="icon"><i class="fas fa-angle-up fa-x"></i></span
 			></a>
 		</div>
+
 		<script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
 		<script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
 		<script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>

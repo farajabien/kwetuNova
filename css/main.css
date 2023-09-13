@@ -282,3 +282,9 @@ footer a:not(.nav-link) {
 
 	cursor: pointer;
 }
+
+.cta-btn {
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding: 1rem 2rem;
+}

@@ -288,3 +288,8 @@ footer a:not(.nav-link) {
 	font-weight: 700;
 	padding: 1rem 2rem;
 }
+
+.customBorder {
+	border: 3px solid #f0d584;
+	border-radius: 5px;
+}

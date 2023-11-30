@@ -290,6 +290,34 @@ footer a:not(.nav-link) {
 }
 
 .customBorder {
-	border: 3px solid #f0d584;
+	border: 3px solid #33e0ff;
 	border-radius: 5px;
+}
+
+.btn-primary-2 {
+	background-color: #33e0ff;
+	border-color: #33e0ff;
+}
+
+.btn-primary-2:hover {
+	background-color: #33e0ff;
+	border-color: #33e0ff;
+}
+
+.btn-primary-2:focus {
+	background-color: #33e0ff;
+	border-color: #33e0ff;
+}
+
+.btn-primary-2:active {
+	background-color: #33e0ff;
+	border-color: #33e0ff;
+}
+
+.bg-light-2 {
+}
+
+.btn-outline-primary-2 {
+	border-color: #33e0ff;
+	color: #33e0ff;
 }
